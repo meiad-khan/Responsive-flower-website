@@ -97,11 +97,14 @@ text-decoration: none;
 .our-plants-title{
   font-size: 3.125rem;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 .our{
   font-size: 3.125rem;
 }
 .our-plants-description{
+  width: 65.89%;
+  margin: 0 auto;
   font-size: 1.375rem;
   color:#00000050;
   font-weight: 400;
@@ -112,9 +115,13 @@ text-decoration: none;
   color:#000000;
 }
 .plant-container{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px 20px;
+}
+.plant-image{
+  width: 100%;
 }
 .plant-name{
   font-size: 1.375rem;
@@ -134,7 +141,7 @@ text-decoration: none;
 .add-to-cart{
   background-color: #E95A08;
   padding: 15px 50px;
-  width: 270px;
+  width: 100%;
   height: 50px;
   border: none;
   font-size: 1rem;
@@ -185,8 +192,25 @@ text-decoration: none;
 .our-plants{
   max-width: 100%;
 }
+.our-plants-title{
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.our-plants-description{
+  width: 75%;
+  font-size: 0.875rem;
+}
 .plant-container{
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   padding: 0 15px;
+}
+.plant-name, .plant-price{
+  font-size: 1rem;
+}
+.add-to-cart{
+  font-size: 1rem;
+width: 100%;
+padding: 5px 10px;
 }
 }
