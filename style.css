@@ -88,7 +88,64 @@ text-decoration: none;
   object-fit: cover;
 }
 
+/*our plants related style*/
+.our-plants{
+  max-width: 80%;
+  margin: 120px auto 0;
+  text-align: center;
+} 
+.our-plants-title{
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.our{
+  font-size: 3.125rem;
+}
+.our-plants-description{
+  font-size: 1.375rem;
+  color:#00000050;
+  font-weight: 400;
+  margin-bottom: 49px;
+}
+.plants-span{
+  margin-left: 8px;
+  color:#000000;
+}
+.plant-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+.plant-name{
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: #111111;
+  line-height: 150%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.plant-price{
+ font-size: 1.375rem;
+  font-weight: 700;
+  color: #111111;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+.add-to-cart{
+  background-color: #E95A08;
+  padding: 15px 50px;
+  width: 270px;
+  height: 50px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
 
+
+.hide{
+  display: none;
+}
 /*responsive design */
 @media screen and (max-width: 576px) {
   header{
@@ -124,5 +181,12 @@ text-decoration: none;
 .banner-content-description{
   font-size: 0.875rem;
 }
-  
+ 
+.our-plants{
+  max-width: 100%;
+}
+.plant-container{
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 15px;
+}
 }
